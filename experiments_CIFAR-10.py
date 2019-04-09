@@ -18,8 +18,7 @@ cifar10_train_loader = torch.utils.data.DataLoader(cifar10_train_dataset,
 cifar10_test_loader = torch.utils.data.DataLoader(cifar10_test_dataset, batch_size=batch_size,
                                                   shuffle=False)
 
-cifar10_classes = ('plane', 'car', 'bird', 'cat',
-           'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
+cifar10_classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck')
 
 
 def train_cifar10(n_blocks, n_channels, reg, lr, n_epochs):
