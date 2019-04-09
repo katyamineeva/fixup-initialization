@@ -11,7 +11,7 @@ The plots below illustrate the training process of ResNet50 with Batch Normaliza
 
 ### Experiments with CIFAR-10 dataset
 
-Experiments with CIFAR-10 confirmed the results obtained with MNIST dataset: Batch Normalization stabilizes training process, but Fixup Initialization provides better loss and accuracy. 
+Experiments with CIFAR-10 confirmed the results obtained with MNIST dataset: Batch Normalization stabilizes training process, but Fixup Initialization provides better loss and accuracy. (Translucent lines on the plots are training loss and accuracy).
 
 <img src=https://github.com/katyamineeva/fixup-initialization/blob/master/images/CIFAR10_resnet50_loss.png alt="drawing" width="400"/> <img src=https://github.com/katyamineeva/fixup-initialization/blob/master/images/CIFAR10_resnet50_acc.png alt="drawing" width="400"/>
 
