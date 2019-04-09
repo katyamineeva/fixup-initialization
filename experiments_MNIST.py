@@ -10,7 +10,6 @@ mnist_test_dataset = dsets.MNIST(root='./MNIST/',
                            train=False, 
                            transform=transforms.ToTensor())
 
-
 mnist_train_loader = torch.utils.data.DataLoader(dataset=mnist_train_dataset,
                                                  batch_size=batch_size,
                                                  shuffle=False)
