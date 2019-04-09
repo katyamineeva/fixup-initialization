@@ -258,4 +258,3 @@ class ResNet(nn.Module):
     def forward(self, x):
         out = self.layers(x)
         return out
-        
